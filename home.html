@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Best Burger Icon" type="png" href="/images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="./plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./plugins/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <title>Best Burger</title>
+</head>
+<body class="bg-light">
+    <section id="contact">
+        <div class="overflow-hidden">
+            <div class="bg-index2 container-fluid">
+                <div class="row pt-1">
+                    <div class="col-12 col-lg-6 col-md-8 mt-1">
+                        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: ''; margin-bottom: -15px;">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item small">
+                                    <h6 class="text-white float-start small">&nbsp;
+                                        <a class="text-decoration-none text-white">Giờ mở cửa: T2 - CN: 4:00 PM - 9:00 PM</a>
+                                    </h6>
+                                </li>
+                                <li class="breadcrumb-item small">
+                                    <i class="text-white bi bi-telephone-fill float-start small"></i>
+                                    <h6 class="text-white float-start small">&nbsp;
+                                        <a href="tel:0987654321" class="text-decoration-none text-white">0987654321</a>
+                                    </h6>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                    <div class="col-12 col-lg-6 col-md-4 mt-1">
+                        <h6 class="text-white float-start small pe-2 float-end">
+                            <a href="#" class="text-decoration-none text-index">Đăng ký</a>
+                        </h6>
+                        <h6 class="text-white float-start small pe-2 float-end">
+                            <a href="#" class="text-decoration-none text-index">Đăng nhập</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header class="bg-light">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row d-md-flex d-lg-flex mb-2">
+                    <div class=" col-12 col-lg-4 col-md-5 mt-2 text-lg-start text-center">
+                        <img src="images/logo_1.png" class="w-50" alt="">
+                    </div>
+                    <div class="col-8 col-lg-5 col-md-5 mt-4">
+                        <div class="input-group">
+                            <input class="form-control" type="search" placeholder="Nhập sản phẩm cần tìm..." aria-label="Search">
+                            <button class="btn btn-index" id="basic-addon1">
+                                <i class="bi bi-search text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-lg-3 col-md-2 mt-3 mt-lg-2">
+                        <button id="cart" class="btn float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa fa-shopping-basket bi bi-basket2-fill fs-2 text-index" aria-hidden="true"></i>
+                        </button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Giỏ Hàng</h5>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="cart-row">
+                                        <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                                        <span class="cart-item cart-header cart-column">Số Lượng</span>
+                                        <span class="cart-item cart-header cart-column">Đơn Giá</span>
+                                    </div>
+                                    <div class="cart-items">
+
+                                    </div>
+                                    <div class="cart-total">
+                                        <strong class="cart-total-title">Tổng Cộng:</strong>
+                                        <span class="cart-total-price">0VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                                    <button type="button" class="btn btn-index order">Thanh Toán</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
