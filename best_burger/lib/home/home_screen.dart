@@ -144,16 +144,6 @@ class _PageHomeState extends State<HomeScreen> {
                 Navigator.pop(context);
               },
             ),
-            const AboutListTile(
-              applicationIcon: Icon(Icons.local_play),
-              applicationName: 'Best Burger',
-              applicationVersion: '1.0.0',
-              applicationLegalese: '© 2019 Company',
-              child: Text(
-                'Giới thiệu về ứng dụng',
-                style: TextStyle(fontSize: 20),
-              ),
-            ),
           ],
         ),
       ),
